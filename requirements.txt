@@ -1,0 +1,10 @@
+h5py
+matplotlib
+numpy
+pandas
+seaborn
+scikit-learn
+optuna
+torch
+tensorflow
+tqdm
