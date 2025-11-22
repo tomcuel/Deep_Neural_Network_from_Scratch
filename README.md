@@ -1,5 +1,8 @@
 # Deep Neural Networks from Scratch 
-> 
+> A hands-on deep learning project featuring a fully custom Python implementation "from scratch" of feedforward depp neural networks (MLPs), along with comparative TensorFlow and PyTorch versions for practice. 
+The repository also includes Convolutional Neural Networks (CNNs) and Autoencoders.
+They are trained on datasets such as Iris, Wine Quality, MNIST, and a small Cats vs Dogs vision task. 
+A Streamlit interface enables interactive experimentation with architectures and hyperparameters, making the project ideal for learning core neural network mechanics and modern DL workflows. 
 
 
 #### Tables of contents
@@ -29,6 +32,7 @@ Credit_and_Fraud_Prediction/
 
 
 ## Direct links to folders 
+
 
 
 ## Installation
@@ -79,4 +83,31 @@ import streamlit as st
 5. Make sure to have Jupyter Notebook installed to run the `.ipynb` files
 
 
-## 
+## Overview
+
+classic ML pipeline with data preprocessing, model definition, training, evaluation, and hyperparameter tuning using Optuna if wanted, depending if we're in the test part or not it's done differently 
+
+For the streamlit app, you can choose how you want to use the deep neural network model from scratch, wether with hyperparameter tuning or by hand to then get metrics that you will be able to visualize with graphs and charts within the app for the different datasets available (Iris, Wine Quality, MNIST).
+
+
+
+
+
+Then, run the Streamlit apps using the following commands :
+```
+streamlit run paiement_fraud_app.py
+streamlit run credit_risk_app.py
+```
+
+<table>
+  <tr>
+    <td style="text-align:center;">
+      <img src="./data/pictures/paiement_fraud_app.png" width="400"/>
+    </td>
+    <td style="text-align:center;">
+      <img src="./data/pictures/credit_risk_app.png" width="400"/>
+    </td>
+  </tr>
+</table>
+
+<img src="./Data/Pictures/signup_screen_render.png" alt="signup_screen_render" width="450" height="300"/>
