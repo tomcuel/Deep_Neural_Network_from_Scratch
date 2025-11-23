@@ -1,0 +1,21 @@
+activations:
+- relu
+- relu
+- relu
+batch_size: 64
+dropout_rates:
+- 0.1
+- 0.1
+- 0.1
+early_stopping: true
+epochs: 1854
+layer_dims:
+- 10
+- 18
+- 10
+learning_rate: 0.0079
+loss_function: cross_entropy
+optimizer_method: adam
+patience: 207
+print_every: -1
+weight_decay: 0.00128
