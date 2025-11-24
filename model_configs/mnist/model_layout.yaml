@@ -1,0 +1,23 @@
+activations:
+- leaky_relu
+- sigmoid
+- relu
+- softmax
+batch_size: 32
+dropout_rates:
+- 0.26194833172354354
+- 0.2619767130345951
+- 0.08039059997884218
+early_stopping: true
+epochs: 200
+layer_dims:
+- 784
+- 89
+- 44
+- 116
+- 10
+learning_rate: 0.012702943402314938
+loss_function: cross_entropy
+optimizer_method: adam
+patience: 5
+weight_decay: 2.2043110498347255e-06

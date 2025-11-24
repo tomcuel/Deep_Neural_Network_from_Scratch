@@ -1,0 +1,3 @@
+epochs: 40
+loss_function: cross_entropy
+n_trials: 17
